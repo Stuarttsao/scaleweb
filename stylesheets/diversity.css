@@ -1,0 +1,188 @@
+.mediaViewInfo {
+	--web-view-name: Menu Open – 2;
+	--web-view-id: Menu_Open__2;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Menu_Open__2;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Menu_Open__2 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Menu Open – 2;
+	--web-view-id: Menu_Open__2;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_23 {
+	fill: rgba(7,17,66,1);
+	stroke: rgba(8,19,65,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_23 {
+	width: 1609.093px;
+	height: 2404.088px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,265.0341,-629.7299) rotate(-75deg);
+	transform-origin: center;
+}
+#Diversity {
+	left: 140px;
+	top: 80px;
+	position: absolute;
+	overflow: visible;
+	width: 496px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 126px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#backbutton{
+	left: 1849px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 28px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#Scale__Coin_champions_various_ {
+	left: 140px;
+	top: 316px;
+	position: absolute;
+	overflow: visible;
+	width: 666px;
+	height: 633px;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#IMG_1092 {
+	position: absolute;
+	width: 475.541px;
+	height: 471.477px;
+	left: 901px;
+	top: 289.384px;
+	overflow: visible;
+}
+#IMG_1091 {
+	position: absolute;
+	width: 351.437px;
+	height: 314.791px;
+	left: 901px;
+	top: 764.925px;
+	overflow: visible;
+}
+#IMG_1090 {
+	position: absolute;
+	width: 417.548px;
+	height: 476.076px;
+	left: 1376.541px;
+	top: 289.384px;
+	overflow: visible;
+}
+#IMG_1089 {
+	position: absolute;
+	width: 318.96px;
+	height: 316.234px;
+	left: 1245.478px;
+	top: 763.766px;
+	overflow: visible;
+}
+#Scroll_Group_1 {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 229.652px;
+	height: 313.161px;
+	left: 1564.438px;
+	top: 764.925px;
+	overflow: hidden;
+}
+#IMG_1088 {
+	position: absolute;
+	width: 303.405px;
+	height: 315.075px;
+	left: -21.703px;
+	top: 0px;
+	overflow: visible;
+}
+#Scroll_Group_2 {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 475.541px;
+	height: 289.384px;
+	left: 901px;
+	top: 0px;
+	overflow: hidden;
+}
+#IMG_1086 {
+	position: absolute;
+	width: 585px;
+	height: 509.5px;
+	left: -29px;
+	top: -25px;
+	overflow: visible;
+}
+#Scroll_Group_3 {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 417.548px;
+	height: 289.384px;
+	left: 1376.541px;
+	top: 0.87px;
+	overflow: hidden;
+}
+#IMG_1087 {
+	position: absolute;
+	width: 585px;
+	height: 513.5px;
+	left: 0px;
+	top: -189px;
+	overflow: visible;
+}

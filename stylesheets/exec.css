@@ -1,0 +1,957 @@
+.mediaViewInfo {
+	--web-view-name: Menu Closed – 15;
+	--web-view-id: Menu_Closed__15;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Menu_Closed__15;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Menu_Closed__15 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Menu Closed – 15;
+	--web-view-id: Menu_Closed__15;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes slide-right {
+
+	0% {
+		transform: translateX(-100%);
+	}
+
+}
+
+#Homepage-Content {
+	transition: margin-left .5s;
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color:rgba(7,17,66,1);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+  }
+  
+  .sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+
+  #Menu_Items {
+	position: absolute;
+	width: 208px;
+	height: 576px;
+	left: 38px;
+	top: 141px;
+	overflow: visible;
+	transition: all 0.5s ease-in-out;
+	--web-animation: fadein 0.5s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Menu_Closed___6.html;
+	cursor: pointer;
+}
+#About_Us {
+	position: absolute;
+	width: 138px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+}
+#About_Us_bb {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(59,72,139,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 138.007px;
+	height: 2px;
+	left: 0px;
+	top: 34px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Recruitment {
+	position: absolute;
+	width: 169px;
+	height: 34px;
+	left: 0px;
+	top: 136px;
+	overflow: visible;
+}
+#Recrutiment {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 139px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: recruitment.html;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(59,72,139,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 169.006px;
+	height: 2px;
+	left: 0px;
+	top: 33px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Executive_Team {
+	position: absolute;
+	width: 208px;
+	height: 34px;
+	left: 0px;
+	top: 271px;
+	overflow: visible;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: exec.html;
+}
+#Executive_Team_bh {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 177px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#Line_4 {
+	fill: transparent;
+	stroke: rgba(59,72,139,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	width: 208px;
+	height: 1px;
+	left: 0px;
+	top: 34px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Network {
+	position: absolute;
+	width: 129px;
+	height: 34px;
+	left: 0px;
+	top: 407px;
+	overflow: visible;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: network.html;
+}
+#Network_bk {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(59,72,139,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 129px;
+	height: 1px;
+	left: 0px;
+	top: 34px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Contact {
+	position: absolute;
+	width: 121px;
+	height: 34px;
+	left: 0px;
+	top: 542px;
+	overflow: visible;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: contact.html;
+}
+#Contact_bn {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#Line_6 {
+	fill: transparent;
+	stroke: rgba(59,72,139,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_6 {
+	overflow: visible;
+	position: absolute;
+	width: 121px;
+	height: 1px;
+	left: 0px;
+	top: 34px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Exit {
+	position: absolute;
+	width: 37px;
+	height: 35px;
+	left: 418.5px;
+	top: 19.5px;
+	overflow: visible;
+	transition: all 0.5s ease-in-out;
+	cursor: pointer;
+}
+#Line_12 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_12 {
+	overflow: visible;
+	position: absolute;
+	width: 37.687px;
+	height: 35.726px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_13 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_13 {
+	overflow: visible;
+	position: absolute;
+	width: 37.687px;
+	height: 35.726px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Menu_Bar {
+	position: absolute;
+	width: 37.529px;
+	height: 32.51px;
+	left: 19px;
+	top: 20.5px;
+	overflow: visible;
+	cursor: pointer;
+	--web-animation: slide-right 0.6s ease-in-out forwards;
+	--web-action-type: page;
+	--web-action-target: Artboard___1.html;
+}
+#Rectangle_7 {
+	fill: rgba(59,72,139,1);
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 273px;
+	height: 277px;
+	left: 1504px;
+	top: 744px;
+}
+#Mask_Group_1 {
+	position: absolute;
+	width: 682px;
+	height: 698px;
+	left: 960px;
+	top: 144px;
+	overflow: visible;
+}
+#Rectangle_3 {
+	fill: transparent;
+	stroke: rgba(60,74,137,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	width: 176.532px;
+	height: 175.7px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,760.089,140.0228) rotate(29deg);
+	transform-origin: center;
+}
+#Rectangle_4 {
+	opacity: 0.744;
+	fill: rgba(59,72,139,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	height: 124px;
+	left: 1658px;
+	top: 144px;
+}
+#Rectangle_5 {
+	fill: rgba(7,17,66,1);
+}
+.Rectangle_5 {
+	position: absolute;
+	overflow: visible;
+	width: 114px;
+	height: 116px;
+	left: 1615px;
+	top: 83px;
+}
+#Bio-Text {
+	position: absolute;
+	width: 680px;
+	height: 625px;
+	left: 135px;
+	top: 318px;
+	overflow: visible;
+}
+#Role-Title_Mask {
+	position: absolute;
+	width: 330px;
+	height: 55px;
+	left: 135px;
+	top: 144px;
+	overflow: visible;
+}
+#Name-Title_Mask {
+	position: absolute;
+	width: 688px;
+	height: 99px;
+	left: 135px;
+	top: 209px;
+	overflow: visible;
+}
+#Top-Menu_Bar {
+	position: absolute;
+	width: 1695px;
+	height: 34px;
+	left: 140px;
+	top: 31px;
+	overflow: visible;
+}
+#VP_Administration {
+	left: 259px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Menu_Closed___14.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(171,171,172,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#President {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(169,169,170,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#EVP {
+	left: 160px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(7,17,66,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#VP_Alumni {
+	left: 516px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Menu_Closed___6.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(169,169,170,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#VP_Finance {
+	left: 687px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Menu_Closed___7.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(169,169,170,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#VP_MM {
+	left: 867px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Menu_Closed___11.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(169,169,170,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#VP_Philanthropy {
+	left: 1019px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 181px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Menu_Closed___8.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(169,169,170,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#NME {
+	left: 1253px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Menu_Closed___12.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(169,169,170,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#VP_Recruitment {
+	left: 1363px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Menu_Closed___9.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(169,169,170,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#VP_Social {
+	left: 1591px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Menu_Closed___10.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(169,169,170,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#Component_1__1 {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 128px;
+	top: 12px;
+	overflow: visible;
+}
+#Ellipse_2 {
+	fill: rgba(59,72,139,1);
+}
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 11px;
+	height: 11px;
+	left: 0px;
+	top: 0px;
+}
+#Component_1__1_bm {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 227px;
+	top: 12px;
+	overflow: visible;
+}
+#Ellipse_2_bn {
+	fill: rgba(59,72,139,1);
+}
+.Ellipse_2_bn {
+	position: absolute;
+	overflow: visible;
+	width: 11px;
+	height: 11px;
+	left: 0px;
+	top: 0px;
+}
+#Component_1__1_bo {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 484px;
+	top: 12px;
+	overflow: visible;
+}
+#Ellipse_2_bp {
+	fill: rgba(59,72,139,1);
+}
+.Ellipse_2_bp {
+	position: absolute;
+	overflow: visible;
+	width: 11px;
+	height: 11px;
+	left: 0px;
+	top: 0px;
+}
+#Component_1__1_bq {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 655px;
+	top: 12px;
+	overflow: visible;
+}
+#Ellipse_2_br {
+	fill: rgba(59,72,139,1);
+}
+.Ellipse_2_br {
+	position: absolute;
+	overflow: visible;
+	width: 11px;
+	height: 11px;
+	left: 0px;
+	top: 0px;
+}
+#Component_1__1_bs {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 834px;
+	top: 12px;
+	overflow: visible;
+}
+#Ellipse_2_bt {
+	fill: rgba(59,72,139,1);
+}
+.Ellipse_2_bt {
+	position: absolute;
+	overflow: visible;
+	width: 11px;
+	height: 11px;
+	left: 0px;
+	top: 0px;
+}
+#Component_1__1_bu {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 986px;
+	top: 12px;
+	overflow: visible;
+}
+#Ellipse_2_bv {
+	fill: rgba(59,72,139,1);
+}
+.Ellipse_2_bv {
+	position: absolute;
+	overflow: visible;
+	width: 11px;
+	height: 11px;
+	left: 0px;
+	top: 0px;
+}
+#Component_1__1_bw {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 1220px;
+	top: 12px;
+	overflow: visible;
+}
+#Ellipse_2_bx {
+	fill: rgba(59,72,139,1);
+}
+.Ellipse_2_bx {
+	position: absolute;
+	overflow: visible;
+	width: 11px;
+	height: 11px;
+	left: 0px;
+	top: 0px;
+}
+#Component_1__1_by {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 1330px;
+	top: 12px;
+	overflow: visible;
+}
+#Ellipse_2_bz {
+	fill: rgba(59,72,139,1);
+}
+.Ellipse_2_bz {
+	position: absolute;
+	overflow: visible;
+	width: 11px;
+	height: 11px;
+	left: 0px;
+	top: 0px;
+}
+#Component_1__1_b {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 1558px;
+	top: 12px;
+	overflow: visible;
+}
+#Ellipse_2_b {
+	fill: rgba(59,72,139,1);
+}
+.Ellipse_2_b {
+	position: absolute;
+	overflow: visible;
+	width: 11px;
+	height: 11px;
+	left: 0px;
+	top: 0px;
+}
+#Cirlce {
+	transform: matrix(1,0,0,1,828,209) rotate(30deg);
+	transform-origin: center;
+	position: absolute;
+	width: 203px;
+	height: 221px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Ellipse_3 {
+	fill: transparent;
+	stroke: rgba(60,74,137,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 277.303px;
+	height: 277.303px;
+	left: 9px;
+	top: 0px;
+}
+#Ellipse_4 {
+	fill: rgba(7,17,66,1);
+}
+.Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 61.471px;
+	height: 61.471px;
+	left: 68.416px;
+	top: 191.92px;
+}
+#Menu_Bar {
+	position: absolute;
+	width: 37.529px;
+	height: 32.51px;
+	left: 19px;
+	top: 20.5px;
+	overflow: visible;
+	cursor: pointer;
+	--web-animation: slide-right 0.6s ease-in-out forwards;
+	--web-action-type: page;
+	--web-action-target: Artboard___1.html;
+}
+#Line_7 {
+	fill: transparent;
+	stroke: rgba(60,74,137,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_7 {
+	overflow: visible;
+	position: absolute;
+	width: 37.529px;
+	height: 3px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_8 {
+	fill: transparent;
+	stroke: rgba(60,74,137,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_8 {
+	overflow: visible;
+	position: absolute;
+	width: 37.529px;
+	height: 3px;
+	left: 0px;
+	top: 10.837px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_9 {
+	fill: transparent;
+	stroke: rgba(60,74,137,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_9 {
+	overflow: visible;
+	position: absolute;
+	width: 37.529px;
+	height: 3px;
+	left: 0px;
+	top: 21.674px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_10 {
+	fill: transparent;
+	stroke: rgba(60,74,137,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_10 {
+	overflow: visible;
+	position: absolute;
+	width: 37.529px;
+	height: 3px;
+	left: 0px;
+	top: 32.51px;
+	transform: matrix(1,0,0,1,0,0);
+}

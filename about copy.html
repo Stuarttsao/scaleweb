@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgba(7,17,66,1);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#Homepage-Content {
+		position: absolute;
+    transition: margin-left .5s;
+		width: 100%;
+		height: 100%;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+#Image_14 {
+		position: absolute;
+		width: 2542px;
+		height: 100%;
+		left: -448px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_35 {
+		opacity: 0.661;
+		fill: rgba(21,21,21,1);
+	}
+	.Rectangle_35 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 100%;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_23 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_23 {
+		position: absolute;
+		overflow: visible;
+		width: 398px;
+		height: 398px;
+		left: 140px;
+		top: 490px;
+	}
+	#Rectangle_24 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_24 {
+		position: absolute;
+		overflow: visible;
+		width: 398px;
+		height: 398px;
+		left: 554px;
+		top: 490px;
+	}
+	#Rectangle_25 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_25 {
+		position: absolute;
+		overflow: visible;
+		width: 398px;
+		height: 398px;
+		left: 968px;
+		top: 490px;
+	}
+	#Rectangle_26 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_26 {
+		position: absolute;
+		overflow: visible;
+		width: 398px;
+		height: 398px;
+		left: 1382px;
+		top: 490px;
+	}
+	#Diversity {
+		left: 280px;
+		top: 669px;
+		position: absolute;
+		overflow: visible;
+		width: 119px;
+		white-space: nowrap;
+		transition: all 1s ease-in-out;
+		--web-animation: fadein 1s ease-in-out;
+		--web-action-type: page;
+		--web-action-target: Menu_Open___2.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.0010000000149011613px;
+	}
+	#Professional_Development {
+		left: 574px;
+		top: 669px;
+		position: absolute;
+		overflow: visible;
+		width: 360px;
+		white-space: nowrap;
+		transition: all 1s ease-in-out;
+		--web-animation: fadein 1s ease-in-out;
+		--web-action-type: page;
+		--web-action-target: Menu_Open___3.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.0010000000149011613px;
+	}
+	#Philanthropy {
+		left: 1081px;
+		top: 669px;
+		position: absolute;
+		overflow: visible;
+		width: 174px;
+		white-space: nowrap;
+		transition: all 1s ease-in-out;
+		--web-animation: fadein 1s ease-in-out;
+		--web-action-type: page;
+		--web-action-target: Menu_Open___4.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.0010000000149011613px;
+	}
+	#Community {
+		left: 1502px;
+		top: 669px;
+		position: absolute;
+		overflow: visible;
+		width: 160px;
+		white-space: nowrap;
+		transition: all 1s ease-in-out;
+		--web-animation: fadein 1s ease-in-out;
+		--web-action-type: page;
+		--web-action-target: Menu_Open___5.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.0010000000149011613px;
+	}
+	#Founded_in_2012_Scale_and_Coin {
+		left: 278px;
+		top: 180px;
+		position: absolute;
+		overflow: visible;
+		width: 1365px;
+		height: 342px;
+		text-align: center;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+	}
+	#Menu_Bar_op {
+		position: absolute;
+		width: 37.529px;
+		height: 32.51px;
+		left: 19px;
+		top: 20.5px;
+		overflow: visible;
+		cursor: pointer;
+		--web-animation: slide-right 0.6s ease-in-out forwards;
+		--web-action-type: page;
+		--web-action-target: Artboard___1.html;
+	}
+	#Line_7_oq {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_7_oq {
+		overflow: visible;
+		position: absolute;
+		width: 37.529px;
+		height: 3px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Line_8_or {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_8_or {
+		overflow: visible;
+		position: absolute;
+		width: 37.529px;
+		height: 3px;
+		left: 0px;
+		top: 10.837px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Line_9_os {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_9_os {
+		overflow: visible;
+		position: absolute;
+		width: 37.529px;
+		height: 3px;
+		left: 0px;
+		top: 21.674px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Line_10_ot {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_10_ot {
+		overflow: visible;
+		position: absolute;
+		width: 37.529px;
+		height: 3px;
+		left: 0px;
+		top: 32.51px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+    #Menu_Items {
+		position: absolute;
+		width: 208px;
+		height: 576px;
+		left: 38px;
+		top: 141px;
+		overflow: visible;
+		transition: all 0.5s ease-in-out;
+		--web-animation: fadein 0.5s ease-in-out;
+		--web-action-type: page;
+		--web-action-target: Menu_Closed___6.html;
+		cursor: pointer;
+	}
+	#About_Us {
+		position: absolute;
+		width: 138px;
+		height: 35px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		transition: all 1s ease-in-out;
+		--web-animation: fadein 1s ease-in-out;
+		--web-action-type: page;
+		--web-action-target: Menu_Open___1.html;
+		cursor: pointer;
+	}
+	#About_Us_bb {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 107px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.0010000000149011613px;
+	}
+	#Line_2 {
+		fill: transparent;
+		stroke: rgba(59,72,139,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_2 {
+		overflow: visible;
+		position: absolute;
+		width: 138.007px;
+		height: 2px;
+		left: 0px;
+		top: 34px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Recruitment {
+		position: absolute;
+		width: 169px;
+		height: 34px;
+		left: 0px;
+		top: 136px;
+		overflow: visible;
+	}
+	#Recrutiment {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 139px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.0010000000149011613px;
+	}
+	#Line_3 {
+		fill: transparent;
+		stroke: rgba(59,72,139,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		width: 169.006px;
+		height: 2px;
+		left: 0px;
+		top: 33px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Executive_Team {
+		position: absolute;
+		width: 208px;
+		height: 34px;
+		left: 0px;
+		top: 271px;
+		overflow: visible;
+	}
+	#Executive_Team_bh {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 177px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.0010000000149011613px;
+	}
+	#Line_4 {
+		fill: transparent;
+		stroke: rgba(59,72,139,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_4 {
+		overflow: visible;
+		position: absolute;
+		width: 208px;
+		height: 1px;
+		left: 0px;
+		top: 34px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Network {
+		position: absolute;
+		width: 129px;
+		height: 34px;
+		left: 0px;
+		top: 407px;
+		overflow: visible;
+	}
+	#Network_bk {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.0010000000149011613px;
+	}
+	#Line_5 {
+		fill: transparent;
+		stroke: rgba(59,72,139,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_5 {
+		overflow: visible;
+		position: absolute;
+		width: 129px;
+		height: 1px;
+		left: 0px;
+		top: 34px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Contact {
+		position: absolute;
+		width: 121px;
+		height: 34px;
+		left: 0px;
+		top: 542px;
+		overflow: visible;
+	}
+	#Contact_bn {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 90px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Avenir Next;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: -0.0010000000149011613px;
+	}
+	#Line_6 {
+		fill: transparent;
+		stroke: rgba(59,72,139,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_6 {
+		overflow: visible;
+		position: absolute;
+		width: 121px;
+		height: 1px;
+		left: 0px;
+		top: 34px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Exit {
+		position: absolute;
+		width: 37px;
+		height: 35px;
+		left: 418.5px;
+		top: 19.5px;
+		overflow: visible;
+		transition: all 0.5s ease-in-out;
+		--web-animation: fadein 0.5s ease-in-out;
+		--web-action-type: page;
+		--web-action-target: Menu_Closed.html;
+		cursor: pointer;
+	}
+	#Line_12 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_12 {
+		overflow: visible;
+		position: absolute;
+		width: 37.687px;
+		height: 35.726px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Line_13 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_13 {
+		overflow: visible;
+		position: absolute;
+		width: 37.687px;
+		height: 35.726px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+	<div id="Menu">
+		<div onclick="application.goToTargetView(event)" id="Menu_Items">
+			<div onclick="application.goToTargetView(event)" id="About_Us">
+				<div id="About_Us_bb">
+					<span>About Us</span>
+				</div>
+				<svg class="Line_2" viewBox="0 0 138 1">
+					<path id="Line_2" d="M 0 1 L 138 0">
+					</path>
+				</svg>
+			</div>
+			<div id="Recruitment">
+				<div id="Recrutiment">
+					<span>Recrutiment</span>
+				</div>
+				<svg class="Line_3" viewBox="0 0 169 1">
+					<path id="Line_3" d="M 0 0 L 169 1">
+					</path>
+				</svg>
+			</div>
+			<div id="Executive_Team">
+				<div id="Executive_Team_bh">
+					<span>Executive Team</span>
+				</div>
+				<svg class="Line_4" viewBox="0 0 208 1">
+					<path id="Line_4" d="M 0 0 L 208 0">
+					</path>
+				</svg>
+			</div>
+			<div id="Network">
+				<div id="Network_bk">
+					<span>Network</span>
+				</div>
+				<svg class="Line_5" viewBox="0 0 129 1">
+					<path id="Line_5" d="M 0 0 L 129 0">
+					</path>
+				</svg>
+			</div>
+			<div id="Contact">
+				<div id="Contact_bn">
+					<span>Contact</span>
+				</div>
+				<svg class="Line_6" viewBox="0 0 121 1">
+					<path id="Line_6" d="M 0 0 L 121 0">
+					</path>
+				</svg>
+			</div>
+		</div>
+		<div onclick="application.goToTargetView(event)" id="Exit">
+			<svg class="Line_12" viewBox="0 0 37 35">
+				<path id="Line_12" d="M 37 0 L 0 35">
+				</path>
+			</svg>
+			<svg class="Line_13" viewBox="0 0 37 35">
+				<path id="Line_13" d="M 0 0 L 37 35">
+				</path>
+			</svg>
+		</div>
+	</div>
+
+		<div onclick="closeNav()" id="Exit">
+			<svg class="Line_12" viewBox="0 0 37 35">
+				<path id="Line_12" d="M 37 0 L 0 35">
+				</path>
+			</svg>
+			<svg class="Line_13" viewBox="0 0 37 35">
+				<path id="Line_13" d="M 0 0 L 37 35">
+				</path>
+			</svg>
+		</div>
+	</div>
+</div>
+
+<div id="main">
+    <div id="Homepage-Content">
+        <img id="Image_14" src="img/Image_14.png">
+            
+        <svg class="Rectangle_35">
+            <rect id="Rectangle_35" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
+            </rect>
+        </svg>
+        <svg class="Rectangle_23">
+            <rect id="Rectangle_23" rx="0" ry="0" x="0" y="0" width="398" height="398">
+            </rect>
+        </svg>
+        <svg class="Rectangle_24">
+            <rect id="Rectangle_24" rx="0" ry="0" x="0" y="0" width="398" height="398">
+            </rect>
+        </svg>
+        <svg class="Rectangle_25">
+            <rect id="Rectangle_25" rx="0" ry="0" x="0" y="0" width="398" height="398">
+            </rect>
+        </svg>
+        <svg class="Rectangle_26">
+            <rect id="Rectangle_26" rx="0" ry="0" x="0" y="0" width="398" height="398">
+            </rect>
+        </svg>
+        <div onclick="application.goToTargetView(event)" id="Diversity">
+            <span>Diversity</span>
+        </div>
+        <div onclick="application.goToTargetView(event)" id="Professional_Development">
+            <span>Professional Development</span>
+        </div>
+        <div onclick="application.goToTargetView(event)" id="Philanthropy">
+            <span>Philanthropy</span>
+        </div>
+        <div onclick="application.goToTargetView(event)" id="Community">
+            <span>Community</span>
+        </div>
+        <div id="Founded_in_2012_Scale_and_Coin">
+            <span>Founded in 2012, Scale and Coin is Duke University’s premier business society. As both a community of scholars and a network of professionals, we strive to provide our members with guidance in the business world. Our community is built upon core values such as leadership, knowledge, and service, and we enable motivated students to teach and learn from each other via an extensive business curriculum, numerous skill workshops, and networking events with firms from a diverse array of industries. </span>
+        </div>
+
+    </div>
+        <div onclick="openNav()" id="Menu_Bar_op">
+            <svg class="Line_7_oq" viewBox="0 0 37.529 3">
+                <path id="Line_7_oq" d="M 0 0 L 37.52925872802734 0">
+                </path>
+            </svg>
+            <svg class="Line_8_or" viewBox="0 0 37.529 3">
+                <path id="Line_8_or" d="M 0 0 L 37.52925872802734 0">
+                </path>
+            </svg>
+            <svg class="Line_9_os" viewBox="0 0 37.529 3">
+                <path id="Line_9_os" d="M 0 0 L 37.52925872802734 0">
+                </path>
+            </svg>
+            <svg class="Line_10_ot" viewBox="0 0 37.529 3">
+                <path id="Line_10_ot" d="M 0 0 L 37.52925872802734 0">
+                </path>
+            </svg>
+        </div>
+    
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "475px";
+  document.getElementById("Homepage-Content").style.marginLeft = "475px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("Homepage-Content").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 

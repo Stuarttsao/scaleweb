@@ -1,0 +1,122 @@
+.mediaViewInfo {
+	--web-view-name: Menu Open – 5;
+	--web-view-id: Menu_Open__5;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Menu_Open__5;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Menu_Open__5 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Menu Open – 5;
+	--web-view-id: Menu_Open__5;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_26 {
+	fill: rgba(7,17,66,1);
+	stroke: rgba(8,19,65,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_26 {
+	width: 1569.787px;
+	height: 2421px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,286.635,-642.7761) rotate(-75deg);
+	transform-origin: center;
+}
+#Community {
+	left: 140px;
+	top: 80px;
+	position: absolute;
+	overflow: visible;
+	width: 669px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 126px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#backbutton{
+	left: 1849px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 28px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#While_Scale__Coin_is_a_profess {
+	left: 140px;
+	top: 316px;
+	position: absolute;
+	overflow: visible;
+	width: 666px;
+	height: 633px;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#Scroll_Group_5 {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 880.391px;
+	height: 887px;
+	left: 917.608px;
+	top: 96.5px;
+	overflow: hidden;
+}
+#IMG_B2F3C1550124-1 {
+	position: absolute;
+	width: 1053.392px;
+	height: 932px;
+	left: -95px;
+	top: 2px;
+	overflow: visible;
+}
