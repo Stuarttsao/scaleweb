@@ -1,0 +1,196 @@
+.mediaViewInfo {
+	--web-view-name: Menu Open – 10;
+	--web-view-id: Menu_Open__10;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Menu_Open__10;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Menu_Open__10 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Menu Open – 10;
+	--web-view-id: Menu_Open__10;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_27 {
+	fill: rgba(7,17,66,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_27 {
+	width: 2216px;
+	height: 2168.211px;
+	position: absolute;
+	overflow: visible;
+	transform: matrix(1,0,0,1,-136.5908,-540.0158) rotate(-35deg);
+	transform-origin: center;
+}
+#Technology {
+	left: 146px;
+	top: 80px;
+	position: absolute;
+	overflow: visible;
+	width: 669px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 126px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#Mask_Group_17 {
+	position: absolute;
+	width: 652px;
+	height: 537px;
+	left: 1107px;
+	top: 276px;
+	overflow: visible;
+}
+#Rectangle_33 {
+	opacity: 0.188;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_33 {
+	position: absolute;
+	overflow: visible;
+	width: 656px;
+	height: 665px;
+	left: 158px;
+	top: 275px;
+}
+#Firms_Represented {
+	left: 1090px;
+	top: 782px;
+	position: absolute;
+	overflow: visible;
+	width: 686px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#Image_7 {
+	position: absolute;
+	width: 639px;
+	height: 479px;
+	left: 44px;
+	top: 470px;
+	overflow: visible;
+}
+#Image_4 {
+	position: absolute;
+	width: 141px;
+	height: 141px;
+	left: 169px;
+	top: 288px;
+	overflow: visible;
+}
+#Image_5 {
+	position: absolute;
+	width: 380px;
+	height: 97px;
+	left: 413px;
+	top: 310px;
+	overflow: visible;
+}
+#Image_6 {
+	position: absolute;
+	width: 325px;
+	height: 110px;
+	left: 187px;
+	top: 485px;
+	overflow: visible;
+}
+#Image_8 {
+	position: absolute;
+	width: 434px;
+	height: 145px;
+	left: 169px;
+	top: 761px;
+	overflow: visible;
+}
+#Image_9 {
+	position: absolute;
+	width: 254px;
+	height: 110px;
+	left: 539px;
+	top: 485px;
+	overflow: visible;
+}
+#Image_10 {
+	position: absolute;
+	width: 175px;
+	height: 175px;
+	left: 618px;
+	top: 583px;
+	overflow: visible;
+}
+#Image_11 {
+	position: absolute;
+	width: 146px;
+	height: 96px;
+	left: 647px;
+	top: 771px;
+	overflow: visible;
+}
+
+#backbutton{
+	left: 1849px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 28px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: network.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.0010000000149011613px;
+}
