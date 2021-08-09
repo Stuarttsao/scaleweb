@@ -447,22 +447,40 @@
 	left: 135px;
 	top: 318px;
 	overflow: visible;
+
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(59,72,139,1);
 }
 #Role-Title_Mask {
 	position: absolute;
 	width: 330px;
 	height: 55px;
 	left: 135px;
-	top: 144px;
+	top: 200px;
 	overflow: visible;
+
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(59,72,139,1);
 }
 #Name-Title_Mask {
 	position: absolute;
 	width: 688px;
 	height: 99px;
 	left: 135px;
-	top: 209px;
+	top: 225px;
 	overflow: visible;
+
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 65px;
+	color: rgba(59,72,139,1);
 }
 #Top-Menu_Bar {
 	position: absolute;
@@ -482,7 +500,7 @@
 	transition: all 1s ease-in-out;
 	--web-animation: fadein 1s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: Menu_Closed___14.html;
+	--web-action-target: VP_Administration.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Avenir Next;
@@ -499,6 +517,11 @@
 	overflow: visible;
 	width: 107px;
 	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: exec.html;
+	cursor: pointer;
 	text-align: left;
 	font-family: Avenir Next;
 	font-style: normal;
@@ -514,12 +537,16 @@
 	overflow: visible;
 	width: 46px;
 	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: EVP.html;
 	text-align: left;
 	font-family: Avenir Next;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 25px;
-	color: rgba(7,17,66,1);
+	color: rgba(169,169,170,1);
 	letter-spacing: -0.0010000000149011613px;
 }
 #VP_Alumni {
@@ -532,7 +559,7 @@
 	transition: all 1s ease-in-out;
 	--web-animation: fadein 1s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: Menu_Closed___6.html;
+	--web-action-target: VP_Alumni.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Avenir Next;
@@ -552,7 +579,7 @@
 	transition: all 1s ease-in-out;
 	--web-animation: fadein 1s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: Menu_Closed___7.html;
+	--web-action-target: VP_Finance.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Avenir Next;
@@ -572,7 +599,7 @@
 	transition: all 1s ease-in-out;
 	--web-animation: fadein 1s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: Menu_Closed___11.html;
+	--web-action-target: VP_MM.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Avenir Next;
@@ -592,7 +619,7 @@
 	transition: all 1s ease-in-out;
 	--web-animation: fadein 1s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: Menu_Closed___8.html;
+	--web-action-target: VP_Philanthropy.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Avenir Next;
@@ -612,7 +639,7 @@
 	transition: all 1s ease-in-out;
 	--web-animation: fadein 1s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: Menu_Closed___12.html;
+	--web-action-target: NME.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Avenir Next;
@@ -632,7 +659,7 @@
 	transition: all 1s ease-in-out;
 	--web-animation: fadein 1s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: Menu_Closed___9.html;
+	--web-action-target: VP_Recruitment.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Avenir Next;
@@ -652,7 +679,7 @@
 	transition: all 1s ease-in-out;
 	--web-animation: fadein 1s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: Menu_Closed___10.html;
+	--web-action-target: VP_Social.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Avenir Next;
