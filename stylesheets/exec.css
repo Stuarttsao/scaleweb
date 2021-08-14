@@ -98,7 +98,7 @@
 	transition: all 0.5s ease-in-out;
 	--web-animation: fadein 0.5s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: Menu_Closed___6.html;
+	--web-action-target: recruitment.html;
 	cursor: pointer;
 }
 #About_Us {
@@ -649,6 +649,32 @@
 	color: rgba(169,169,170,1);
 	letter-spacing: -0.0010000000149011613px;
 }
+/* .dropdown:hover .dropdown-content {display: block;}
+#NME:hover #NME2{display: block}
+.dropdown:hover {font-size: 100px;} */
+
+#NME2 {
+	z-index: 1;
+	left: 1253px;
+	top: 45px;
+	position: absolute;
+	overflow: visible;
+	display: none;
+	width: 57px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: NME2.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(169,169,170,1);
+	letter-spacing: -0.0010000000149011613px;
+}
 #VP_Recruitment {
 	left: 1363px;
 	top: 0px;
@@ -660,6 +686,27 @@
 	--web-animation: fadein 1s ease-in-out;
 	--web-action-type: page;
 	--web-action-target: VP_Recruitment.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Avenir Next;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(169,169,170,1);
+	letter-spacing: -0.0010000000149011613px;
+}
+#VP_Professional {
+	left: 1363px;
+	top: 45px;
+	display: none;
+	position: absolute;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	transition: all 1s ease-in-out;
+	--web-animation: fadein 1s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: VP_Professional.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Avenir Next;

@@ -109,6 +109,8 @@
 	</div>
 	</svg>
 	<div id="Top-Menu_Bar">
+
+
 		<div onclick="application.goToTargetView(event)" id="VP_Administration">
 			<span>VP Administration</span>
 		</div>
@@ -130,15 +132,31 @@
 		<div onclick="application.goToTargetView(event)" id="VP_Philanthropy">
 			<span>VP Philanthropy</span>
 		</div>
-		<div onclick="application.goToTargetView(event)" id="NME" style="color: rgba(7,17,66,1);">
-			<span>NME</span>
+
+		<div onmouseover="hover()">
+			<div onclick="application.goToTargetView(event)" id="NME" style="color: rgba(7,17,66,1);">
+				<span >NME</span>
+			</div>
+			<div onclick="application.goToTargetView(event)" onmouseleave="unhover()"id="NME2">
+				<span>NME 2</span>
+			</div>
+		</div>	
+
+		<div onmouseover="hover2()">
+			<div onclick="application.goToTargetView(event)" id="VP_Recruitment">
+				<span>VP Recruitment</span>
+			</div>
+			<div onclick="application.goToTargetView(event)" onmouseleave="unhover2()"id="VP_Professional">
+				<span>VP Professional</span>
+			</div>
 		</div>
-		<div onclick="application.goToTargetView(event)" id="VP_Recruitment">
-			<span>VP Recruitment</span>
-		</div>
+		
 		<div onclick="application.goToTargetView(event)" id="VP_Social">
 			<span>VP Social</span>
 		</div>
+
+
+
 		<div id="Component_1__1" class="Component_1___1">
 			<svg class="Ellipse_2">
 				<ellipse id="Ellipse_2" rx="5.5" ry="5.5" cx="5.5" cy="5.5">
@@ -203,7 +221,8 @@
 			<ellipse id="Ellipse_4" rx="22.5" ry="22.5" cx="22.5" cy="22.5">
 			</ellipse>
 		</svg>
-    </div>
+	</div>
+		
     </div>
 
 	<div onclick="openNav()"  id="Menu_Bar">
@@ -238,6 +257,21 @@
 	function closeNav() {
 	  document.getElementById("mySidenav").style.width = "0";
 	  document.getElementById("Homepage-Content").style.marginLeft= "0";
+	}
+
+	function hover() {
+		document.getElementById("NME2").style.display = "block";
+	}
+	function unhover() {
+		document.getElementById("NME2").style.display = "none";
+	}
+
+
+	function hover2() {
+		document.getElementById("VP_Professional").style.display = "block";
+	}
+	function unhover2() {
+		document.getElementById("VP_Professional").style.display = "none";
 	}
 </script>
 </body>
