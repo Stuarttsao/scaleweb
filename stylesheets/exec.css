@@ -244,7 +244,7 @@
 	overflow: visible;
 	--web-animation: fadein 1s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: network.html;
+	--web-action-target: index.html;
 }
 #Network_bk {
 	left: 0px;
